@@ -1,9 +1,5 @@
 <?php
 
-$matriz = [array('cod_conduc' => '95070234', 'nom_conduc'=>'Conductor 1', 'dir_conduc'=>'calle 44 NRO. 6N -50',
-'age_conduc'=> '34'), array('cod_conduc' => '5656768', 'nom_conduc'=>'Conductor 2', 'dir_conduc'=>'cra 78A NRO. 8 -12',
-'age_conduc'=> '37')];
-
 
 foreach ($matriz as $fila) {
     
