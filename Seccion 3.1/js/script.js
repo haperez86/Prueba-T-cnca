@@ -1,0 +1,14 @@
+var main = document.getElementById('capa1');
+var contenido = document.getElementById('input1');
+main.removeChild(contenido);
+var select = document.createElement('SELECT');
+var option = document.createElement("option");
+option.text = "Bogota";
+select.add(option);
+var option = document.createElement("option");
+option.text = "Medellin";
+select.add(option);
+var option = document.createElement("option");
+option.text = "Cali";
+select.add(option);
+main.appendChild(select);
